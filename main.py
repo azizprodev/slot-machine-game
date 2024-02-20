@@ -41,7 +41,7 @@ def check_winnings(columns, lines, bet, values):
 
     return winnings, winning_lines
 
-# sping machine function in rows and columns
+# spin machine function in rows and columns
 def get_slot_machine_spin(rows, cols, symbols):
     all_symbols = []
     for symbol, symbol_count, in symbols.items():
